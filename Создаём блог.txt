@@ -17,4 +17,13 @@
 	python manage.py migrate blog
 
 
-4. Со
+4. Создаём суперюзера
+	python manage.py createsuperuser
+
+5. Создаём репозиторий
+	https://github.com/new
+	https://github.com/Geniius/my-first-blog.git
+
+
+
+	
