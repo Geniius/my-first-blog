@@ -1,0 +1,20 @@
+1. Создаём и активируем виртуальное окружение
+	Создаём папку и переходим в неё командной строкой
+	Создаём виртуальное окружение: virtualenv env
+	Активируем виртуальное окружение: env\Scripts\activate
+	Устанавливаем Django: pip install django
+	python3 -m pip install --upgrade pip
+
+2. Устанавливаем
+	django-admin.exe startproject mysite .
+	python manage.py migrate
+	python manage.py runserver
+
+3. Создаём приложение b модель
+	python manage.py startapp blog
+	создаём модель и добавляем в настройки приложение
+	python manage.py makemigrations blog
+	python manage.py migrate blog
+
+
+4. Со
