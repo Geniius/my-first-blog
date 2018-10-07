@@ -63,5 +63,6 @@
 	git push
 ######## Загрузка из Гита
 	$ cd my-first-blog
+	git reset --hard
 	$ git pull
 
