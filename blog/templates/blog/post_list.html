@@ -1,5 +1,5 @@
 {% extends 'blog/base.html' %}
-<!--Урок Django Girls-->
+<!--Урок Django -->
 {% block content %}
     {% for post in posts %}
         <div class="post">
@@ -8,21 +8,9 @@
             </div>
             <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
             <p>{{ post.text|linebreaksbr }}</p>
+            <p>{{ post.image}}</p>
         </div>
     {% endfor %}
 {% endblock %}
-<!--Урок Django-->
 
-<!--{% for itm in results %}-->
-    <!--<div>-->
-        <!--<img src="{{itm.image}}" alt="">-->
-    <!--</div>-->
-    <!--<div>-->
-        <!--<h2>{{ itm.title }}</h2>-->
-    <!--</div>-->
-    <!--<div>-->
-        <!--{{ itm.cost }}-->
-    <!--</div>-->
-    <!--{% endfor %}-->
-<!--&lt;!&ndash;Конец&ndash;&gt;-->
 
