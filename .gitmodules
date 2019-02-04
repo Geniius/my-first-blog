@@ -1,0 +1,3 @@
+[submodule "my-first-blog"]
+	path = my-first-blog
+	url = https://github.com/Geniius/PY_Django.git
